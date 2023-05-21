@@ -1,4 +1,4 @@
-falsy = [0, 0.0, "", False, None] # falsy values
+falsy = [0, 0.0, "", [], (), False, None] # falsy values
 
 print(list(map(lambda x : bool(x), falsy)))
 
