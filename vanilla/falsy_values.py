@@ -1,7 +1,7 @@
-falsy = [0, 0.0, "", [], (), False, None] # falsy values
+falsy = [0, 0.0, "", [], (), {}, False, None] # falsy values
 
 print(list(map(lambda x : bool(x), falsy)))
-
+        
 print(True and 0 and False) # and: returns the first falsy value
 print(True and 1 and "a") # and: returns the last truly value
 
