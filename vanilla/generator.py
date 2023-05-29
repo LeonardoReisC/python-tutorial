@@ -3,11 +3,13 @@
 # generators are not indexed
 
 import sys
+from types import GeneratorType
 
 list_ = [n for n in range(1000)]  # already in memory
 
 # not in memory, but it can be acessed one by one
 generator = (n for n in range(1000))
+print(generator, GeneratorType)
 
 print(sys.getsizeof(list_))  # bytes
 print(sys.getsizeof(generator))
