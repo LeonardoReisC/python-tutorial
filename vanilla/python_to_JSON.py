@@ -19,4 +19,4 @@ with open('person.json', 'r', encoding='utf-8') as file:
     person = json.load(file)
     pprint(person)
 
-os.remove('person.json')
+os.remove('person.json') # to see the file content, comment this line

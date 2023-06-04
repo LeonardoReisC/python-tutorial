@@ -1,7 +1,7 @@
 def outside(x):
     free_var = x
 
-    def inside(*arg):
+    def inside(y):
         nonlocal free_var  # solution
 
         # free var: not declared inside that block
