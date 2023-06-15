@@ -1,5 +1,5 @@
 """
-    property: decorator that makes an object methos acts like an attribute
+    property: decorator that makes an object method acts like an attribute
     generally used
         - as a getter
         - to avoid breaking client codes
