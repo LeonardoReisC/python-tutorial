@@ -1,0 +1,8 @@
+Dear ${name},
+
+I'm hear to remind you that your ${value} monthly payment will be charged on 
+${date}. If you'd like to cancel the service, please contact us(${company}) at
+${telephone}.
+
+Regards,
+${company}
