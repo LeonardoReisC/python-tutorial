@@ -1,0 +1,37 @@
+{
+	// code runner
+	"code-runner.executorMap": {
+		"python": "python -u",
+	},
+	"code-runner.ignoreSelection": true,
+	"code-runner.runInTerminal": true,
+	
+	// python
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.python",
+  		"editor.tabSize": 4,
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.insertSpaces": true,
+		"editor.rulers": [80],
+		
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true,
+		},
+  	},
+	"python.languageServer": "Pylance", 
+	"python.analysis.typeCheckingMode": "basic",
+	"python.analysis.diagnosticSeverityOverrides": {
+		"reportUnknownMemberType": "none",
+		"reportUnknownArgumentType": "none",
+		"reportUnknownVariableType": "none",
+		"reportUnknownLambdaType": "none",
+		"reportUnknownParameterType": "none"
+	},
+	"python.defaultInterpreterPath": "python",
+	
+	"python.linting.mypyEnabled": true,
+	"python.linting.flake8Enabled": true,
+	"python.testing.pytestEnabled": true,
+	"python.testing.unittestEnabled": false,
+}
